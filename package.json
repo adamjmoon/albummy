@@ -1,7 +1,7 @@
 {
-  "name": "es6",
+  "name": "albummy",
   "version": "0.0.1",
-  "description": "es6 playground",
+  "description": "rank favorite albums",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamjmoon/playground.git"
+    "url": "https://github.com/adamjmoon/albummy.git"
   },
   "keywords": [
-    "es6"
+    "es6","music","albums"
   ],
   "author": "Adam Moon",
   "license": "mit",
   "bugs": {
-    "url": "https://github.com/adamjmoon/playground/issues"
+    "url": "https://github.com/adamjmoon/albummy/issues"
   },
-  "homepage": "https://github.com/adamjmoon/playground",
+  "homepage": "https://github.com/adamjmoon/albummy",
   "devDependencies": {
     "babel": "^5.8.23",
     "chai": "^3.2.0",
