@@ -1,7 +1,5 @@
 REPORTER ?= spec
 
-es6 : babel
-
 test-unit:
 	mocha \
     --compilers js:babel/register \
@@ -10,12 +8,12 @@ test-unit:
     --growl \
     test/*.js
 
-test :  es6 test-unit
+test :  babel test-unit
 
 test-cov:
 	@COV=1 $(MAKE) test REPORTER=html-cov > coverage.html
     
-babel :  ;babel src --out-dir dist
+babel : ;./node_modules/.bin/babel src --out-dir dist
 
 clean :  ;rm -fdR dist
 
