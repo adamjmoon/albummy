@@ -1,7 +1,7 @@
 REPORTER ?= spec
 
 test-unit:
-	mocha \
+	 node --harmony ./node_modules/.bin/mocha \
     --compilers js:babel/register \
     --reporter $(REPORTER) \
     test/*.js \
@@ -13,7 +13,7 @@ test :  babel test-unit
 test-cov:
 	@COV=1 $(MAKE) test REPORTER=html-cov > coverage.html
     
-babel : ;./node_modules/.bin/babel src --out-dir dist
+babel : ; .\node_modules\.bin\babel src --out-dir dist
 
 clean :  ;rm -fdR dist
 

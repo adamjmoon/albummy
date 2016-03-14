@@ -19,5 +19,11 @@ export default function async(g){
                 }, 0 );
             }
         }
+        else{
+
+        }
+
+
+
     })();
 }

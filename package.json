@@ -14,7 +14,9 @@
     "url": "https://github.com/adamjmoon/albummy.git"
   },
   "keywords": [
-    "es6","music","albums"
+    "es6",
+    "music",
+    "albums"
   ],
   "author": "Adam Moon",
   "license": "mit",
@@ -25,7 +27,10 @@
   "devDependencies": {
     "babel": "^5.8.23",
     "chai": "^3.2.0",
+    "co": "^4.6.0",
+    "co-mocha": "^1.1.2",
     "mocha": "^2.3.0",
+    "mocha-generators": "^1.2.0",
     "nodebrainz": "^1.0.1",
     "sinon": "^1.16.1"
   }
